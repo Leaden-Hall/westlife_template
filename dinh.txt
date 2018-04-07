@@ -1,0 +1,5 @@
+Westlife template - Branch name: Dinh
+
+Working on feature: 
+Album details 
+Music player

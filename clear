@@ -1,0 +1,523 @@
+[1mdiff --cc index.html[m
+[1mindex f2d389f,e26d8a2..0000000[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@@ -1,276 -1,240 +1,518 @@@[m
+[32m++<<<<<<< HEAD[m
+[32m +<!DOCTYPE html>[m
+[32m +<html lang="en">[m
+[32m +	<head>[m
+[32m +		<meta charset="UTF-8">[m
+[32m +		<meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m +		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">[m
+[32m +		[m
+[32m +		<title>Band Template</title>[m
+[32m +		<!-- Loading third party fonts -->[m
+[32m +		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">[m
+[32m +		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">[m
+[32m +		<!-- Loading main css file -->[m
+[32m +		<link rel="stylesheet" href="style.css">[m
+[32m +		[m
+[32m +		<!-- boostrap css -->[m
+[32m +		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">[m
+[32m +		<!--[if lt IE 9]>[m
+[32m +		<script src="js/ie-support/html5.js"></script>[m
+[32m +		<script src="js/ie-support/respond.js"></script>[m
+[32m +		<![endif]-->[m
+[32m +[m
+[32m +	</head>[m
+[32m +[m
+[32m +	<body class="header-collapse" style="background-color: #141414;[m
+[32m +    color: #848484;[m
+[32m +    font-family: Source Sans Pro,Open Sans,sans-serif;[m
+[32m +    font-size: 16px;[m
+[32m +    line-height: 24px;">[m
+[32m +		[m
+[32m +		<div id="site-content">[m
+[32m +			<header class="site-header">[m
+[32m +				<div class="container">[m
+[32m +					<a href="index.html" id="branding">[m
+[32m +						<img src="dummy/logo.png" alt="Site Title">[m
+[32m +						<small class="site-description">Slogan goes here</small>[m
+[32m +					</a> <!-- #branding -->[m
+[32m +					[m
+[32m +					<nav class="main-navigation">[m
+[32m +						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>[m
+[32m +						<ul class="menu">[m
+[32m +							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>[m
+[32m +							<li class="menu-item"><a href="about.html">About</a></li>[m
+[32m +							<li class="menu-item"><a href="gallery.html">Gallery</a></li>[m
+[32m +							<li class="menu-item"><a href="album.html">Album</a></li>[m
+[32m +							<li class="menu-item"><a href="blog.html">Blog</a></li>[m
+[32m +							<li class="menu-item"><a href="contact.html">Contact</a></li>[m
+[32m +							<li class="menu-item"><a href="login.html">Sign In</a></li>[m
+[32m +						</ul> <!-- .menu -->[m
+[32m +					</nav> <!-- .main-navigation -->[m
+[32m +					<div class="mobile-menu"></div>[m
+[32m +				</div>[m
+[32m +			</header> <!-- .site-header -->[m
+[32m +			[m
+[32m +			<div class="hero">[m
+[32m +				<div class="slider">[m
+[32m +					<ul class="slides">[m
+[32m +						<li class="lazy-bg" data-background="dummy/slide-1.jpg">[m
+[32m +							<div class="container">[m
+[32m +								<h2 class="slide-title">Header goes here</h2>[m
+[32m +								<h3 class="slide-subtitle">Less important text goes here</h3>[m
+[32m +								<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>[m
+[32m +[m
+[32m +								<a href="#" class="button cut-corner">Read More</a>[m
+[32m +							</div>[m
+[32m +						</li>[m
+[32m +						<li class="lazy-bg" data-background="dummy/slide-2.jpg">[m
+[32m +							<div class="container">[m
+[32m +									<h2 class="slide-title">Header goes here</h2>[m
+[32m +									<h3 class="slide-subtitle">Less important text goes here</h3>[m
+[32m +									<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>[m
+[32m +[m
+[32m +									<a href="#" class="button cut-corner">Read More</a>[m
+[32m +							</div>[m
+[32m +						</li>[m
+[32m +						<li class="lazy-bg" data-background="dummy/slide-3.jpg">[m
+[32m +							<div class="container">[m
+[32m +									<h2 class="slide-title">Header goes here</h2>[m
+[32m +									<h3 class="slide-subtitle">Less important text goes here</h3>[m
+[32m +									<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>[m
+[32m +[m
+[32m +									<a href="#" class="button cut-corner">Read More</a>[m
+[32m +							</div>[m
+[32m +						</li>[m
+[32m +					</ul>[m
+[32m +				</div>[m
+[32m +			</div>[m
+[32m +			[m
+[32m +			<main class="main-content">[m
+[32m +				<div class="fullwidth-block testimonial-section">[m
+[32m +					<div class="container">[m
+[32m +						<div class="quote-slider">[m
+[32m +							<ul class="slides">[m
+[32m +								<li>[m
+[32m +									<blockquote>[m
+[32m +										<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>[m
+[32m +										<cite>John Smith</cite>[m
+[32m +										<span>Corporation CEO, books author</span>[m
+[32m +									</blockquote>[m
+[32m +								</li>[m
+[32m +								<li>[m
+[32m +									<blockquote>[m
+[32m +										<p>"Iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>[m
+[32m +										<cite>John Smith</cite>[m
+[32m +										<span>Corporation CEO, books author</span>[m
+[32m +									</blockquote>[m
+[32m +								</li>[m
+[32m +							</ul>[m
+[32m +						</div>[m
+[32m +					</div>[m
+[32m +				</div> <!-- .testimonial-section -->[m
+[32m +[m
+[32m +				<div class="fullwidth-block upcoming-event-section" data-bg-color="#191919">[m
+[32m +					<div class="container">[m
+[32m +						<header class="section-header">[m
+[32m +							<h2 class="section-title">Upcoming events</h2>[m
+[32m +[m
+[32m +							<div class="event-nav">[m
+[32m +								<a class="prev" id="event-prev" href="#"><i class="fa fa-caret-left"></i></a>[m
+[32m +	    						<a class="next" id="event-next" href="#"><i class="fa fa-caret-right"></i></a>[m
+[32m +							</div> <!-- .event-nav -->[m
+[32m +[m
+[32m +						</header> <!-- .section-header -->[m
+[32m +						<div class="event-carousel">[m
+[32m +							[m
+[32m +							<div class="event">[m
+[32m +								<div class="entry-date">[m
+[32m +									<div class="date">23</div>[m
+[32m +									<span class="month">Jun</span>[m
+[32m +								</div>[m
+[32m +								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m +								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>[m
+[32m +							</div> <!-- .event -->[m
+[32m +							[m
+[32m +							[m
+[32m +							<div class="event">[m
+[32m +								<div class="entry-date">[m
+[32m +									<div class="date">23</div>[m
+[32m +									<span class="month">Jun</span>[m
+[32m +								</div>[m
+[32m +								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m +								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>[m
+[32m +							</div> <!-- .event -->[m
+[32m +							[m
+[32m +							[m
+[32m +							<div class="event">[m
+[32m +								<div class="entry-date">[m
+[32m +									<div class="date">23</div>[m
+[32m +									<span class="month">Jun</span>[m
+[32m +								</div>[m
+[32m +								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m +								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>[m
+[32m +							</div> <!-- .event -->[m
+[32m +							[m
+[32m +							[m
+[32m +							<div class="event">[m
+[32m +								<div class="entry-date">[m
+[32m +									<div class="date">23</div>[m
+[32m +									<span class="month">Jun</span>[m
+[32m +								</div>[m
+[32m +								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m +								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur </p>[m
+[32m +							</div> <!-- .event -->[m
+[32m +							[m
+[32m +							[m
+[32m +							<div class="event">[m
+[32m +								<div class="entry-date">[m
+[32m +									<div class="date">23</div>[m
+[32m +									<span class="month">Jun</span>[m
+[32m +								</div>[m
+[32m +								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m +								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur </p>[m
+[32m +							</div> <!-- .event -->[m
+[32m +							[m
+[32m +						</div> <!-- .event-carousel -->[m
+[32m +					</div> <!-- .container -->[m
+[32m +				</div> <!-- .upcoming-event-section -->[m
+[32m +[m
+[32m +				<div class="fullwidth-block why-chooseus-section">[m
+[32m +					<div class="container">[m
+[32m +						<h2 class="section-title">Why choose us?</h2>[m
+[32m +[m
+[32m +						<div class="row">[m
+[32m +							<div class="col-md-4">[m
+[32m +								<div class="feature">[m
+[32m +									<figure class="cut-corner">[m
+[32m +										<img src="dummy/medium-image-1.jpg" alt="">[m
+[32m +									</figure>[m
+[32m +									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>[m
+[32m +									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>[m
+[32m +								</div> <!-- .feature -->[m
+[32m +							</div>[m
+[32m +							<div class="col-md-4">[m
+[32m +								<div class="feature">[m
+[32m +									<figure class="cut-corner">[m
+[32m +										<img src="dummy/medium-image-2.jpg" alt="">[m
+[32m +									</figure>[m
+[32m +									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>[m
+[32m +									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>[m
+[32m +								</div> <!-- .feature -->[m
+[32m +							</div>[m
+[32m +							<div class="col-md-4">[m
+[32m +								<div class="feature">[m
+[32m +									<figure class="cut-corner">[m
+[32m +										<img src="dummy/medium-image-3.jpg" alt="">[m
+[32m +									</figure>[m
+[32m +									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>[m
+[32m +									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>[m
+[32m +								</div> <!-- .feature -->[m
+[32m +							</div>[m
+[32m +						</div>[m
+[32m +					</div> <!-- .container -->[m
+[32m +				</div> <!-- .why-chooseus-section -->[m
+[32m +			</main> <!-- .main-content -->[m
+[32m +[m
+[32m +			<footer class="site-footer">[m
+[32m +				<div class="container">[m
+[32m +					<img src="dummy/logo-footer.png" alt="Site Name">[m
+[32m +					[m
+[32m +					<address>[m
+[32m +						<p>495 Brainard St. Detroit, MI 48201 <br><a href="tel:354543543">(563) 429 234 890</a> <br> <a href="mailto:info@bandname.com">info@bandname.com</a></p> [m
+[32m +					</address> [m
+[32m +					[m
+[32m +					<form action="#" class="newsletter-form">[m
+[32m +						<input type="email" placeholder="Enter your email to join newsletter...">[m
+[32m +						<input type="submit" class="button cut-corner" value="Subscribe" data-toggle="modal" data-target="#exampleModal">[m
+[32m +						[m
+[32m +						<!-- Modal -->[m
+[32m +						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">[m
+[32m +						  <div class="modal-dialog" role="document">[m
+[32m +						    <div class="modal-content">[m
+[32m +						      <div class="modal-header">[m
+[32m +						        <h3 class="modal-title" id="exampleModalLabel">Subscribe</h3>[m
+[32m +						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">[m
+[32m +						          <span aria-hidden="true">&times;</span>[m
+[32m +						        </button>[m
+[32m +						      </div>[m
+[32m +						      <div class="modal-body">[m
+[32m +						         Thank you for your subscribe[m
+[32m +						      </div>[m
+[32m +						      <div class="modal-footer">[m
+[32m +						        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>[m
+[32m +						        [m
+[32m +						      </div>[m
+[32m +						    </div>[m
+[32m +						  </div>[m
+[32m +						</div>[m
+[32m +					</form> <!-- .newsletter-form -->[m
+[32m +					[m
+[32m +					<div class="social-links">[m
+[32m +						<a href="#"><i class="fa fa-facebook-square"></i></a>[m
+[32m +						<a href="#"><i class="fa fa-twitter"></i></a>[m
+[32m +						<a href="#"><i class="fa fa-google-plus"></i></a>[m
+[32m +						<a href="#"><i class="fa fa-pinterest"></i></a>[m
+[32m +					</div> <!-- .social-links -->[m
+[32m +					[m
+[32m +					<p class="copy">Copyright 2014 Company Name. Designed by Themezy. All right reserved</p>[m
+[32m +				</div>[m
+[32m +			</footer> <!-- .site-footer -->[m
+[32m +[m
+[32m +		</div> <!-- #site-content -->[m
+[32m +[m
+[32m +		<script src="js/jquery-1.11.1.min.js"></script>		[m
+[32m +		<script src="js/plugins.js"></script>[m
+[32m +		<script src="js/app.js"></script>[m
+[32m +		[m
+[32m +		<!-- boostrap js -->[m
+[32m +		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>[m
+[32m +		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>[m
+[32m +		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>[m
+[32m +		[m
+[32m +		<script type="text/javascript">[m
+[32m +			$.noConflict();[m
+[32m +		</script>[m
+[32m +	</body>[m
+[32m +[m
+[32m++=======[m
+[32m+ <!DOCTYPE html>[m
+[32m+ <html lang="en">[m
+[32m+ 	<head>[m
+[32m+ 		<meta charset="UTF-8">[m
+[32m+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">[m
+[32m+ 		[m
+[32m+ 		<title>Band Template</title>[m
+[32m+ 		<!-- Loading third party fonts -->[m
+[32m+ 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">[m
+[32m+ 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">[m
+[32m+ 		<!-- Loading main css file -->[m
+[32m+ 		<link rel="stylesheet" href="css/style.css">[m
+[32m+ 		[m
+[32m+ 		<!--[if lt IE 9]>[m
+[32m+ 		<script src="js/ie-support/html5.js"></script>[m
+[32m+ 		<script src="js/ie-support/respond.js"></script>[m
+[32m+ 		<![endif]-->[m
+[32m+ [m
+[32m+ 	</head>[m
+[32m+ [m
+[32m+ 	<body class="header-collapse">[m
+[32m+ 		[m
+[32m+ 		<div id="site-content">[m
+[32m+ 			<header class="site-header">[m
+[32m+ 				<div class="container">[m
+[32m+ 					<a href="index.html" id="branding">[m
+[32m+ 						<img src="dummy/logo.png" alt="Site Title">[m
+[32m+ 						<small class="site-description">Slogan goes here</small>[m
+[32m+ 					</a> <!-- #branding -->[m
+[32m+ 					[m
+[32m+ 					<nav class="main-navigation">[m
+[32m+ 						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>[m
+[32m+ 						<ul class="menu">[m
+[32m+ 							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>[m
+[32m+ 							<li class="menu-item"><a href="about.html">About</a></li>[m
+[32m+ 							<li class="menu-item"><a href="gallery.html">Gallery</a></li>[m
+[32m+ 							<li class="menu-item"><a href="album.html">Album</a></li>[m
+[32m+ 							<li class="menu-item"><a href="blog.html">Blog</a></li>[m
+[32m+ 							<li class="menu-item"><a href="contact.html">Contact</a></li>[m
+[32m+ 						</ul> <!-- .menu -->[m
+[32m+ 					</nav> <!-- .main-navigation -->[m
+[32m+ 					<div class="mobile-menu"></div>[m
+[32m+ 				</div>[m
+[32m+ 			</header> <!-- .site-header -->[m
+[32m+ 			[m
+[32m+ 			<div class="hero">[m
+[32m+ 				<div class="slider">[m
+[32m+ 					<ul class="slides">[m
+[32m+ 						<li class="lazy-bg" data-background="dummy/slide-1.jpg">[m
+[32m+ 							<div class="container">[m
+[32m+ 								<h2 class="slide-title">Header goes here</h2>[m
+[32m+ 								<h3 class="slide-subtitle">Less important text goes here</h3>[m
+[32m+ 								<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>[m
+[32m+ [m
+[32m+ 								<a href="#" class="button cut-corner">Read More</a>[m
+[32m+ 							</div>[m
+[32m+ 						</li>[m
+[32m+ 						<li class="lazy-bg" data-background="dummy/slide-2.jpg">[m
+[32m+ 							<div class="container">[m
+[32m+ 									<h2 class="slide-title">Header goes here</h2>[m
+[32m+ 									<h3 class="slide-subtitle">Less important text goes here</h3>[m
+[32m+ 									<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>[m
+[32m+ [m
+[32m+ 									<a href="#" class="button cut-corner">Read More</a>[m
+[32m+ 							</div>[m
+[32m+ 						</li>[m
+[32m+ 						<li class="lazy-bg" data-background="dummy/slide-3.jpg">[m
+[32m+ 							<div class="container">[m
+[32m+ 									<h2 class="slide-title">Header goes here</h2>[m
+[32m+ 									<h3 class="slide-subtitle">Less important text goes here</h3>[m
+[32m+ 									<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>[m
+[32m+ [m
+[32m+ 									<a href="#" class="button cut-corner">Read More</a>[m
+[32m+ 							</div>[m
+[32m+ 						</li>[m
+[32m+ 					</ul>[m
+[32m+ 				</div>[m
+[32m+ 			</div>[m
+[32m+ 			[m
+[32m+ 			<main class="main-content">[m
+[32m+ 				<div class="fullwidth-block testimonial-section">[m
+[32m+ 					<div class="container">[m
+[32m+ 						<div class="quote-slider">[m
+[32m+ 							<ul class="slides">[m
+[32m+ 								<li>[m
+[32m+ 									<blockquote>[m
+[32m+ 										<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>[m
+[32m+ 										<cite>John Smith</cite>[m
+[32m+ 										<span>Corporation CEO, books author</span>[m
+[32m+ 									</blockquote>[m
+[32m+ 								</li>[m
+[32m+ 								<li>[m
+[32m+ 									<blockquote>[m
+[32m+ 										<p>"Iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>[m
+[32m+ 										<cite>John Smith</cite>[m
+[32m+ 										<span>Corporation CEO, books author</span>[m
+[32m+ 									</blockquote>[m
+[32m+ 								</li>[m
+[32m+ 							</ul>[m
+[32m+ 						</div>[m
+[32m+ 					</div>[m
+[32m+ 				</div> <!-- .testimonial-section -->[m
+[32m+ [m
+[32m+ 				<div class="fullwidth-block upcoming-event-section" data-bg-color="#191919">[m
+[32m+ 					<div class="container">[m
+[32m+ 						<header class="section-header">[m
+[32m+ 							<h2 class="section-title">Upcoming events</h2>[m
+[32m+ [m
+[32m+ 							<div class="event-nav">[m
+[32m+ 								<a class="prev" id="event-prev" href="#"><i class="fa fa-caret-left"></i></a>[m
+[32m+ 	    						<a class="next" id="event-next" href="#"><i class="fa fa-caret-right"></i></a>[m
+[32m+ 							</div> <!-- .event-nav -->[m
+[32m+ [m
+[32m+ 						</header> <!-- .section-header -->[m
+[32m+ 						<div class="event-carousel">[m
+[32m+ 							[m
+[32m+ 							<div class="event">[m
+[32m+ 								<div class="entry-date">[m
+[32m+ 									<div class="date">23</div>[m
+[32m+ 									<span class="month">Jun</span>[m
+[32m+ 								</div>[m
+[32m+ 								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m+ 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>[m
+[32m+ 							</div> <!-- .event -->[m
+[32m+ 							[m
+[32m+ 							[m
+[32m+ 							<div class="event">[m
+[32m+ 								<div class="entry-date">[m
+[32m+ 									<div class="date">23</div>[m
+[32m+ 									<span class="month">Jun</span>[m
+[32m+ 								</div>[m
+[32m+ 								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m+ 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>[m
+[32m+ 							</div> <!-- .event -->[m
+[32m+ 							[m
+[32m+ 							[m
+[32m+ 							<div class="event">[m
+[32m+ 								<div class="entry-date">[m
+[32m+ 									<div class="date">23</div>[m
+[32m+ 									<span class="month">Jun</span>[m
+[32m+ 								</div>[m
+[32m+ 								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m+ 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>[m
+[32m+ 							</div> <!-- .event -->[m
+[32m+ 							[m
+[32m+ 							[m
+[32m+ 							<div class="event">[m
+[32m+ 								<div class="entry-date">[m
+[32m+ 									<div class="date">23</div>[m
+[32m+ 									<span class="month">Jun</span>[m
+[32m+ 								</div>[m
+[32m+ 								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m+ 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur </p>[m
+[32m+ 							</div> <!-- .event -->[m
+[32m+ 							[m
+[32m+ 							[m
+[32m+ 							<div class="event">[m
+[32m+ 								<div class="entry-date">[m
+[32m+ 									<div class="date">23</div>[m
+[32m+ 									<span class="month">Jun</span>[m
+[32m+ 								</div>[m
+[32m+ 								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>[m
+[32m+ 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur </p>[m
+[32m+ 							</div> <!-- .event -->[m
+[32m+ 							[m
+[32m+ 						</div> <!-- .event-carousel -->[m
+[32m+ 					</div> <!-- .container -->[m
+[32m+ 				</div> <!-- .upcoming-event-section -->[m
+[32m+ [m
+[32m+ 				<div class="fullwidth-block why-chooseus-section">[m
+[32m+ 					<div class="container">[m
+[32m+ 						<h2 class="section-title">Why choose us?</h2>[m
+[32m+ [m
+[32m+ 						<div class="row">[m
+[32m+ 							<div class="col-md-4">[m
+[32m+ 								<div class="feature">[m
+[32m+ 									<figure class="cut-corner">[m
+[32m+ 										<img src="dummy/medium-image-1.jpg" alt="">[m
+[32m+ 									</figure>[m
+[32m+ 									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>[m
+[32m+ 									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>[m
+[32m+ 								</div> <!-- .feature -->[m
+[32m+ 							</div>[m
+[32m+ 							<div class="col-md-4">[m
+[32m+ 								<div class="feature">[m
+[32m+ 									<figure class="cut-corner">[m
+[32m+ 										<img src="dummy/medium-image-2.jpg" alt="">[m
+[32m+ 									</figure>[m
+[32m+ 									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>[m
+[32m+ 									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>[m
+[32m+ 								</div> <!-- .feature -->[m
+[32m+ 							</div>[m
+[32m+ 							<div class="col-md-4">[m
+[32m+ 								<div class="feature">[m
+[32m+ 									<figure class="cut-corner">[m
+[32m+ 										<img src="dummy/medium-image-3.jpg" alt="">[m
+[32m+ 									</figure>[m
+[32m+ 									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>[m
+[32m+ 									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>[m
+[32m+ 								</div> <!-- .feature -->[m
+[32m+ 							</div>[m
+[32m+ 						</div>[m
+[32m+ 					</div> <!-- .container -->[m
+[32m+ 				</div> <!-- .why-chooseus-section -->[m
+[32m+ 			</main> <!-- .main-content -->[m
+[32m+ [m
+[32m+ 			<footer class="site-footer">[m
+[32m+ 				<div class="container">[m
+[32m+ 					<img src="dummy/logo-footer.png" alt="Site Name">[m
+[32m+ 					[m
+[32m+ 					<address>[m
+[32m+ 						<p>495 Brainard St. Detroit, MI 48201 <br><a href="tel:354543543">(563) 429 234 890</a> <br> <a href="mailto:info@bandname.com">info@bandname.com</a></p> [m
+[32m+ 					</address> [m
+[32m+ 					[m
+[32m+ 					<form action="#" class="newsletter-form">[m
+[32m+ 						<input type="email" placeholder="Enter your email to join newsletter...">[m
+[32m+ 						<input type="submit" class="button cut-corner" value="Subscribe">[m
+[32m+ 					</form> <!-- .newsletter-form -->[m
+[32m+ 					[m
+[32m+ 					<div class="social-links">[m
+[32m+ 						<a href="#"><i class="fa fa-facebook-square"></i></a>[m
+[32m+ 						<a href="#"><i class="fa fa-twitter"></i></a>[m
+[32m+ 						<a href="#"><i class="fa fa-google-plus"></i></a>[m
+[32m+ 						<a href="#"><i class="fa fa-pinterest"></i></a>[m
+[32m+ 					</div> <!-- .social-links -->[m
+[32m+ 					[m
+[32m+ 					<p class="copy">Copyright 2014 Company Name. Designed by Themezy. All right reserved</p>[m
+[32m+ 				</div>[m
+[32m+ 			</footer> <!-- .site-footer -->[m
+[32m+ [m
+[32m+ 		</div> <!-- #site-content -->[m
+[32m+ [m
+[32m+ 		<script src="js/jquery-1.11.1.min.js"></script>		[m
+[32m+ 		<script src="js/plugins.js"></script>[m
+[32m+ 		<script src="js/app.js"></script>[m
+[32m+ 		[m
+[32m+ 	</body>[m
+[32m+ [m
+[32m++>>>>>>> dinh[m
+  </html>[m
