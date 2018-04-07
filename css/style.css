@@ -8,6 +8,10 @@
  * Importing CSS Libraries
  *===========================================*/
 
+html body {
+	background-color: #191919;
+}
+
 #login {
     background-image: url("dummy/login.jpg");
     background-size: 1350px;
