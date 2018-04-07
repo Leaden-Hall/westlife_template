@@ -143,8 +143,14 @@
 	padding-left: 10px;
 }
 
-.album-track-length {
+.album-track-length, .album-track-download, .album-track-share {
 	padding-right: 10px;
+	font-weight: 500;
+}
+
+.album-track-download, .album-track-share {
+	color: #fff;
+	
 }
 
 .album-track-name:first-child {
