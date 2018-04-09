@@ -12,20 +12,6 @@ html body {
 	background-color: #191919;
 }
 
-#login {
-    background-image: url("dummy/login.jpg");
-    background-size: 1350px;
-}
-#register {
-    background-image: url("dummy/register.jpg");
-    background-size: 1350px;
-}
-#reset {
-    background-image: url("dummy/reset.jpg");
-    background-size: 1340px;
-}
-
-
 /* line 45, sass/libs/_normalize.scss */
 article,
 aside,
