@@ -1,4 +1,4 @@
-/*!
+	/*!
  * Project_Name: Themezy Band Template
  * Author: Themezy
  * Email: info@themezy.com
@@ -10,6 +10,7 @@
 
 html body {
 	background-color: #191919;
+	color: #848484;
 }
 
 /* line 45, sass/libs/_normalize.scss */
@@ -2005,7 +2006,7 @@ body {
       display: block; }
   /* line 116, sass/layout/_content.scss */
   .content .post .entry-title {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 10px;
     font-size: 24px;
     font-size: 1.5em;
@@ -2515,7 +2516,7 @@ body {
 
 /* line 6, sass/pages/_post.scss */
 .content .entry-title {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 30px;
   font-size: 36px;
   font-size: 2.25em;
